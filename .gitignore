@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+envs/
+
+# Data and derived clinical artifacts
+*.json
+*.jsonl
+*.parquet
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.db
+*.sqlite
+*.pkl
+*.pickle
+
+# Raw or derived data folders
+data/
+raw_data/
+derived_data/
+mimic/
+mimiciv/
+outputs/
+manifests/
+checkpoints/
+cache/
+.cache/
+hf_cache/
+hf_datasets/
+wandb/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Secrets
+.env
+*.key
+*.pem
+*token*
+*secret*
+*password*
+*api_key*
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,32 @@
+data:
+  mimic_version: "MIMIC-IV v2.2"
+  cohort: "allergy-related ICD-10 filtered admissions"
+  split: "patient-level 8:1:1"
+  release_policy: "no raw or derived patient-level data redistributed"
+
+ner:
+  model: "Bio_ClinicalBERT token classification"
+  entity_types:
+    - Drug
+    - Dosage
+    - Route
+    - Frequency
+    - Strength
+    - Duration
+    - Reaction
+    - Severity
+    - Other
+
+kg:
+  graph_features: 128
+  construction: "normalized entities, note/admission/patient links, co-occurrence edges, section-aware context edges"
+
+audit:
+  min_hits: 2
+  matching: "Aho-Corasick learned audit lexicon"
+
+uncertainty:
+  model: "Bayesian neural network on fixed encoder embeddings"
+  mc_samples: 10
+  confidence_threshold: 0.05
+  uncertainty_threshold: 15.0

@@ -1,0 +1,15 @@
+released:
+  - source code
+  - configuration files
+  - aggregate result CSV files
+  - documentation
+  - schemas or schema descriptions
+
+not_released:
+  - raw MIMIC-IV tables
+  - derived patient-level parquet files
+  - note text
+  - real entity spans
+  - record-level routing manifests
+  - model checkpoints
+  - credentials or cache directories

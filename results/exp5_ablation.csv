@@ -1,0 +1,21 @@
+experiment,setting,metric,value,std,n,notes
+Exp5,full_aris,Free-form generation,0,,2000,encoder-only operation
+Exp5,unconstrained_llm,Free-form generation,100,,2000,generator baseline
+Exp5,full_aris,BNN routing coverage,100,,2000,all records
+Exp5,unconstrained_llm,BNN routing coverage,0,,2000,no routing layer
+Exp5,full_aris,Audit metadata coverage,100,,2000,all records
+Exp5,unconstrained_llm,Audit metadata coverage,0,,2000,no audit layer
+Exp5,full_aris,Uncertainty estimates,100,,2000,all records
+Exp5,unconstrained_llm,Uncertainty estimates,0,,2000,no BNN gate
+Exp5,full_aris,Provenance hashes,100,,2000,all records
+Exp5,unconstrained_llm,Provenance hashes,0,,2000,no provenance manifest
+Exp5,operating_sweep,Strict accepted,20,,200,total uncertainty <= 8.95
+Exp5,operating_sweep,Balanced accepted,100,,200,total uncertainty <= 13.67
+Exp5,operating_sweep,Permissive accepted,190,,200,total uncertainty <= 19.52
+Exp5,classical_ner_kg,Structurally coherent records,95.2,,2000,baseline
+Exp5,aris,Structurally coherent records,100,,2000,controlled admission
+Exp5,classical_ner_kg,Complete profiles,72.7,,2000,baseline
+Exp5,aris,Complete profiles,76.0,,2000,controlled admission
+Exp5,classical_ner_kg,Guideline-complete structured records,28.8,,2000,baseline
+Exp5,aris,Guideline-complete structured records,76.0,,2000,controlled admission
+Exp5,aris,Relative gain in guideline-complete records,163,,2000,relative percent gain

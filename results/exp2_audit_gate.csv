@@ -1,0 +1,6 @@
+experiment,setting,metric,value,std,n,notes
+Exp2,audit_stress,Accuracy,92.64,0.58,100 runs,synthetic audit-stress validation
+Exp2,audit_stress,Precision,99.16,0.33,100 runs,synthetic audit-stress validation
+Exp2,audit_stress,Recall,86.01,1.06,100 runs,synthetic audit-stress validation
+Exp2,audit_stress,Specificity,99.27,0.28,100 runs,synthetic audit-stress validation
+Exp2,audit_stress,F1-score,0.921,0.007,100 runs,200000 total synthetic records

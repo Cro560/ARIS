@@ -1,0 +1,7 @@
+experiment,setting,metric,value,std,n,notes
+Exp1,routing_provenance,Routing decision coverage,100,,2000,all test records
+Exp1,routing_provenance,Audit metadata coverage,100,,2000,all test records
+Exp1,routing_provenance,Uncertainty estimate coverage,100,,2000,all test records
+Exp1,routing_provenance,Provenance hash coverage,100,,2000,all test records
+Exp1,routing_provenance,BNN bypass events,0,,2000,no bypass observed
+Exp1,routing_provenance,Uncontrolled generation events,0,,2000,generation disabled

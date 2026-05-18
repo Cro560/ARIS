@@ -1,0 +1,12 @@
+experiment,setting,metric,value,std,n,notes
+Exp3,uncertainty,Total uncertainty,13.42,3.29,2000,test records
+Exp3,uncertainty,Epistemic uncertainty,13.02,3.27,2000,97.0 percent of total
+Exp3,uncertainty,Aleatoric uncertainty,0.40,0.30,2000,3.0 percent of total
+Exp3,uncertainty,Epistemic-aleatoric correlation,0.003,,2000,p=0.891
+Exp3,uncertainty,Confidence score,0.073,0.019,2000,test records
+Exp3,low_resource,Total uncertainty at n=50,14.16,2.95,50,105.5 percent of baseline
+Exp3,low_resource,Total uncertainty at n=100,13.88,3.37,100,103.4 percent of baseline
+Exp3,low_resource,Total uncertainty at n=200,13.82,3.58,200,103.0 percent of baseline
+Exp3,low_resource,Total uncertainty at n=500,13.44,3.28,500,100.1 percent of baseline
+Exp3,low_resource,Total uncertainty at n=1000,13.42,3.32,1000,100.0 percent of baseline
+Exp3,low_resource,Total uncertainty at n=2000,13.42,3.29,2000,100.0 percent baseline

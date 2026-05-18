@@ -1,0 +1,7 @@
+experiment,setting,metric,value,std,n,notes
+Exp4,graph_reweighting,Original Gini,0.9316,,,final KG
+Exp4,graph_reweighting,Reweighted Gini,0.9312,,,uncertainty-weighted KG
+Exp4,graph_reweighting,Gini change,0.0004,,,absolute change
+Exp4,graph_reweighting,Mutual information retention,1.0,,,preserved
+Exp4,graph_reweighting,Entity retention,98.44,,,percent
+Exp4,graph_reweighting,Label overlap,100,,,preserved
