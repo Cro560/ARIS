@@ -1,0 +1,4 @@
+profile,percentile,threshold_total_uncertainty,accepted,total,acceptance_rate,mean_accepted_uncertainty,mean_accepted_confidence,bypass_rate
+Strict,0.10,9.1879,200,2000,0.1000,7.9612,0.1133,0.0000
+Balanced,0.50,13.2190,1000,2000,0.5000,10.7872,0.0872,0.0000
+Permissive,0.95,19.1363,1900,2000,0.9500,13.0437,0.0748,0.0000
